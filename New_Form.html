@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+    <link rel="stylesheet" href="design.css/New_Form.css">
+</head>
+<body class="body">
+    <form action="action.js" class="form">
+        <fieldset>
+        <legend>Thanks for your interest in climate action</legend>
+        <div class="cap">
+            <caption>Data Collection</caption>
+        </div>
+        <br>
+        <div>
+            <label for="name" class="lab">Enter your first name</label>
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="Enter your first name" class="bord">
+        </div>
+        <br>
+        <div>
+            <label for="name" class="lab">Enter your last name</label>
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="Enter your last name" class="bord">
+        </div>
+        <br>
+        <div>
+            <label for="number" class="lab">Enter your phone number</label>
+        </div>
+        <br>
+        <div>
+            <input type="number" placeholder="Enter your number" class="bord">
+        </div>
+        <br>
+        <div>
+            <label for="email" class="lab">Enter your Email ID</label>
+        </div>
+        <br>
+        <div>
+            <input type="email" placeholder="Enter your Email ID" class="bord"><br>
+        </div>
+        <br>
+        <div>
+            <label for="gender" class="lab">Select your gender</Select></label>
+        </div>
+        <br>
+        <div>
+            <label for="id1">
+                <input type="radio" value="Male" name="gender" id="id1">Male
+            </label>
+            <label for="id2">
+                <input type="radio" value="Female" name="gender" id="id2">Female
+            </label>
+            <label for="id3">
+                <input type="radio" value="Other" name="gender" id="id3">Other
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="Quali" class="lab">Select your Qualfication Level</label>
+        </div>
+        <br>
+        <div>
+            <input list="Qualification" name="Qualification" id="Quali">
+        </div>
+        <br>
+        <datalist id="Qualification">
+            <option value="Graduate"></option>
+            <option value="Post-Graduate"></option>
+            <option value="PhD"></option>
+            <option value="Not Graduated"></option>
+        </datalist>
+        <div>
+            <label for="age" class="lab">Select your age</label>
+        </div>
+        <div>
+            <select name="age" id="age_select">
+                <option value="15-18">15-18</option>
+                <option value="19-25">19-25</option>
+                <option value="26-30">26-30</option>
+                <option value="31-40">31-40</option>
+                <option value=">40">Greater than 40</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="opinion">Tell us why you are motivated for this cause</label>
+        </div>
+        <br>
+        <div>
+            <textarea name="opinion" id="" placeholder=""Write 3-5 lines about your motivation"" cols="30" rows="4"></textarea>
+        </div>
+        <div class="pos">
+            <input type="submit" value="Submit" class="final"><br>
+        </div>
+    </fieldset>    
+    </form>
+    
+</body>
+</html>

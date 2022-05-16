@@ -1,0 +1,36 @@
+.body{
+    margin-left: 37.5pc;
+    margin-right: 37.5pc;
+}
+.cap{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.form{
+    background-image: url("Image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+    width: 30pc;
+    color: silver;
+}
+.final{
+    background-color: navy; 
+    color:white; 
+    width: 20pc; 
+    border-radius: 5px; 
+    justify-content: center;
+}
+.pos{
+    text-align: center;
+}
+.lab{
+    font-size: 20px;
+    color: chartreuse;
+}
+.bord{
+    border: 0px;
+    border-bottom: 1px solid black;
+}
